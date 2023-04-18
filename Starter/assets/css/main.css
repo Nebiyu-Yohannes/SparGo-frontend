@@ -132,6 +132,7 @@ body.light-theme{
   background-color: var(--secondary-background-color);
   opacity: 0;
   transform: scale(0); 
+  /* makes it un clickable not just invisible */
   transition: opacity .25s ease-in;
 }
 
