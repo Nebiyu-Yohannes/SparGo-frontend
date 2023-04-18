@@ -6,6 +6,8 @@
     throw new Error (`no such selector as ${selector} or check spelling`);
  };
 
+ console.log(ElementSelector('.navbar'));
+
 //Nav styles on scroll
 
 // Open menu & search pop-up
