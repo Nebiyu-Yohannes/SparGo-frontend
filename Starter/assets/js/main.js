@@ -9,7 +9,14 @@
  console.log(ElementSelector('.navbar'));
 
 //Nav styles on scroll
-
+const scrollHeader = () => {
+   const headerElement = ElementSelector('#header');
+   if (this.scrollY >= 15){
+      headerElement.classList.add('activated');
+   }else{
+      headerElement.classList.remove('activated');
+   }
+};
 // Open menu & search pop-up
 
 // Open/Close search form popup
