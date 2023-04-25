@@ -57,7 +57,7 @@ const themeToggleButton = ElementSelector('#theme-toggle-button');
 // if currentTheme is not null / empty then add the class light-theme to the body  
 if (currentTheme){
    bodyElement.classList.add('light-theme');
-}
+}//else {bodyElement.classList.remove('light-theme');};
 // creating a shorthand function that toggles the light-theme selectors AND saves the current theme
 const ThemeChanger = () => {
    bodyElement.classList.toggle('light-theme');
