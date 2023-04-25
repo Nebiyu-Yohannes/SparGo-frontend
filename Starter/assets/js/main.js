@@ -25,24 +25,52 @@ const scrollHeader = () => {
 // by attaching and event listener to the window object for a scroll event
 window.addEventListener('scroll', scrollHeader);
 
-// Open menu & search pop-up
-const menuToggleIcon = ElementSelector('#menu-toggle-icon');
 
+// Open menu & search pop-up
+
+
+const menuToggleIcon = ElementSelector('.menu-toggle-icon');
+// creating a function that toggles the selectors activated for the menu class 
 const toggleMenu = () => {
-   // creating a varaible to store the menu id
+   // creating a variable to store the menu id
    const mobileMenu = ElementSelector('.menu');
-   console.log('hi')
-   // to toggle the classes under menu and under menu-toggle-icon
+   // to toggle the selectors activated under menu and under menu-toggle-icon
    mobileMenu.classList.toggle('activated');
    menuToggleIcon.classList.toggle('activated');
 };
 // call the function and add an event listener on the click event
 menuToggleIcon.addEventListener('click', toggleMenu);
 
+
 // Open/Close search form popup
+
 
 // -- Close the search form popup on ESC keypress
 
 // Switch theme/add to local storage
+
+// create a variable that gets the current theme from local storage
+const currentTheme = localStorage.getItem('currentTheme');
+// create a variable for the body element and theme-toggle-button element
+const bodyElement = document.body;
+const themeToggleButton = ElementSelector('#theme-toggle-button');
+// if currentTheme is not null / empty then add the class light-theme to the body  
+if (currentTheme){
+   bodyElement.classList.add('light-theme');
+}
+// creating a shorthand function that toggles the light-theme selectors AND saves the current theme
+const ThemeChanger = () => {
+   bodyElement.classList.toggle('light-theme');
+   //  if the body is on light-theme then set the currentTheme variable to themeActive
+   // else remove it (so the currentTheme variable becomes empty)
+   if (bodyElement.classList.contains('light-theme')) {
+      localStorage.setItem('currentTheme', 'themeActive');
+   }else {
+      localStorage.remove('currentTheme')
+   };
+};
+// adding an event listener to the theme button so it changes theme when clicked; by calling the ThemeChanger function
+themeToggleButton.addEventListener('click', ThemeChanger);
+
 
 // Swiper
