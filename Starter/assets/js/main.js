@@ -26,8 +26,8 @@ const scrollHeader = () => {
 window.addEventListener('scroll', scrollHeader);
 
 
-// Open menu & search pop-up
 
+// Open menu & search pop-up
 
 const menuToggleIcon = ElementSelector('.menu-toggle-icon');
 // creating a function that toggles the selectors activated for the menu class 
@@ -42,12 +42,38 @@ const toggleMenu = () => {
 menuToggleIcon.addEventListener('click', toggleMenu);
 
 
+
 // Open/Close search form popup
+
+//creating a variable that holds the search button element
+const searchToggleIcon = ElementSelector('#search-icon');
+// create a variable that holds the whole search form element in-order to activate it
+const searchForm = ElementSelector('#search-form-container');
+// create a variable that holds the form-close-button button 
+const formCloseButton = ElementSelector('#form-close-button');
+
+// create a function that toggles the selector activated under the search-form-container class
+const openSearch = () => {
+   searchForm.classList.add('activated');
+};
+// create a function that removes the selector activated under the search-form-container class
+const closeSearch = () => {
+   searchForm.classList.remove('activated');
+};
+
+// call the function for a click event on to the search button AND also on to the form close button
+searchToggleIcon.addEventListener('click', openSearch);
+formCloseButton.addEventListener('click', closeSearch);
 
 
 // -- Close the search form popup on ESC keypress
 
+// create.... work here:)
+
+
 // Switch theme/add to local storage
+
+
 
 // create a variable that gets the current theme from local storage
 const currentTheme = localStorage.getItem('currentTheme');
@@ -66,11 +92,12 @@ const ThemeChanger = () => {
    if (bodyElement.classList.contains('light-theme')) {
       localStorage.setItem('currentTheme', 'themeActive');
    }else {
-      localStorage.remove('currentTheme')
+      localStorage.removeItem('currentTheme')
    };
 };
 // adding an event listener to the theme button so it changes theme when clicked; by calling the ThemeChanger function
 themeToggleButton.addEventListener('click', ThemeChanger);
+
 
 
 // Swiper

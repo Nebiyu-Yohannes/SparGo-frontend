@@ -6,6 +6,8 @@
     --light-color-alt: #afb6cd;
     --primary-background-color: #131417;
     --secondary-background-color: #252830;
+    --my-type-of-brown: rgb(106, 21, 21);
+    --my-kind-of-gold: rgba(140, 119, 2, 0.79);
     --hover-light-color: var(--light-color);
     --hover-dark-color: var(--primary-background-color);
     --gradient-color: linear-gradient(
@@ -176,7 +178,9 @@ body.light-theme{
   display: block;
 }
 
+
 /* Header JavaScript Styles */
+
 .header.activated{
   box-shadow: 0 1px .5rem var(--transparent-light-color);
   background-color: red;
@@ -197,9 +201,89 @@ body.light-theme{
   display: block;
 }
 
+
 /* Search */
 
+.search-form-container{
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  background-color: var(--primary-background-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 0.5s; /* ease */ 
+}
+
+.form-container-inner{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  border: 2px solid var(--secondary-background-color);
+}
+
+
+.from-input,
+.form-button{
+  display: inline-block;
+  border: 2px solid var(--secondary-background-color);
+  padding: 1.3rem;
+}
+
+.from-input{
+  border-right: none;
+  width: 100%;
+}
+
+/* trying to align the placeholder text 
+.placeholder{
+  justify-self: center;
+  align-self: baseline;
+  text-align: center;
+  text-decoration: solid;
+  text-decoration-color: brown;
+}*/
+
+.form-button{
+  margin-left: -0.5rem;
+  border-left: none;
+  background-color: var(--secondary-background-color);
+  width: 8rem;
+}
+
+.form-note{
+  font-size: var(--font-size-xsm);
+  align-self: flex-end;
+}
+
+.form-close-button{
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  border: 2px solid var(--secondary-background-color);
+  width: 3rem;
+  height: 2.8rem;
+  /*background-color: var(--my-type-of-brown);*/ 
+}
+
+
 /* Form JavaScript styles */
+
+.search-form-container.activated{
+  opacity: 1;
+  transform: scale(1);
+}
+
 
 /* Featured articles */
 
