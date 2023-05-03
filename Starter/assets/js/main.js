@@ -68,8 +68,12 @@ formCloseButton.addEventListener('click', closeSearch);
 
 // -- Close the search form popup on ESC keypress
 
-// create.... work here:)
+// an event function that reacts to the escape button
+// calling the close search function based on a keyup event
 
+window.addEventListener('keyup', event_key => { 
+   if (event_key.key === 'Escape') closeSearch();
+});
 
 // Switch theme/add to local storage
 

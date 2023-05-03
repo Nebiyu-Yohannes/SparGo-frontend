@@ -103,6 +103,14 @@ body.light-theme{
   display: none;
 }
 
+.d-grid{
+  display: grid;
+}
+
+.section{
+     
+}
+
 /* Header */
 .header{
   background-color: var(--secondary-background-color);
@@ -189,7 +197,7 @@ body.light-theme{
 
 .menu.activated {
   box-shadow: 1px 1px 1rem var(--transparent-light-color);
-  opacity: 1;
+  opacity: 0.95;
   transform: scale(1);
 }
 
@@ -280,7 +288,7 @@ body.light-theme{
 /* Form JavaScript styles */
 
 .search-form-container.activated{
-  opacity: 1;
+  opacity: 0.95;
   transform: scale(1);
 }
 
