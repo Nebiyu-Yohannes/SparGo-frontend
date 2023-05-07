@@ -75,9 +75,8 @@ window.addEventListener('keyup', event_key => {
    if (event_key.key === 'Escape') closeSearch();
 });
 
+
 // Switch theme/add to local storage
-
-
 
 // create a variable that gets the current theme from local storage
 const currentTheme = localStorage.getItem('currentTheme');
