@@ -536,6 +536,11 @@ body.light-theme{
   background-color: var(--secondary-background-color);
 }
 
+.swiper-controls::after{
+  font-size: 1.5rem;
+  color: var(--light-color);
+}
+
 
 /* Older posts */
 
