@@ -524,9 +524,13 @@ body.light-theme{
   height: 40rem;
 }
 
-
-
 /* Quick read - Swiper */
+
+.swiper-wrapper{
+  height: auto;
+}
+
+.swiper-controls
 
 /* Older posts */
 
