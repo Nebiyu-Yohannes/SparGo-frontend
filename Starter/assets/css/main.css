@@ -530,7 +530,12 @@ body.light-theme{
   height: auto;
 }
 
-.swiper-controls
+.swiper-controls{
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: var(--secondary-background-color);
+}
+
 
 /* Older posts */
 
