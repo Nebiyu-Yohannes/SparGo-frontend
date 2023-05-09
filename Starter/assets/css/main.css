@@ -501,9 +501,30 @@ body.light-theme{
 
 /* Quick read */
 
-.section-title{
-  
+.quick-read{
+  background-color: red;
 }
+.section-title{
+  position: relative;
+  font-size: var(--font-size-md);
+  margin-bottom: 6rem;  
+}
+
+.section-title::before{
+  content: attr(data-name);
+  font-size: var(--font-size-md);
+  text-transform: uppercase;
+  opacity: .1;
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+}
+
+.spare.swiper-slide{
+  height: 40rem;
+}
+
+
 
 /* Quick read - Swiper */
 
