@@ -501,9 +501,7 @@ body.light-theme{
 
 /* Quick read */
 
-.quick-read{
-  background-color: red;
-}
+
 .section-title{
   position: relative;
   font-size: var(--font-size-md);
@@ -546,14 +544,15 @@ body.light-theme{
   color: var(--light-color);
 }
 
-/* after the initiation of swiper through js *
+/* after the initiation of swiper through js */
 .swiper-pagination{
   bottom: .5rem !important;
 }
 .swiper-pagination-bullet{
   background-color: var(--light-color);
 }
-*/
+
+
 
 /* Older posts */
 
