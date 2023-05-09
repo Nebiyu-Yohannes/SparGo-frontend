@@ -510,6 +510,11 @@ body.light-theme{
   margin-bottom: 6rem;  
 }
 
+/* adding a bottom padding to the spare-name inside the quick-read-data-container */
+.quick-read-data-container .spare-name{
+  padding-bottom: 1rem;
+}
+
 .section-title::before{
   content: attr(data-name);
   font-size: var(--font-size-md);
