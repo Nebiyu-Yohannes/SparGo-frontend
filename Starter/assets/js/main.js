@@ -108,7 +108,7 @@ themeToggleButton.addEventListener('click', ThemeChanger);
 // We are going to create a new variable object 
    // that is an instance off the Swiper class 
    // and we are going to define a key-value pair properties to our choice of swiper element
-/*const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.swiper', {
    slidesPerView: 1,
    spaceBetween: 20,
    navigation: {
@@ -127,4 +127,3 @@ themeToggleButton.addEventListener('click', ThemeChanger);
       }
    }
 });
-*/
