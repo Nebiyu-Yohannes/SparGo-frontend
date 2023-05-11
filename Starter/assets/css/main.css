@@ -556,6 +556,22 @@ body.light-theme{
 
 /* Coming Soon */
 
+.upcoming {
+  background-color: red;
+}
+
+.upcoming-grid-wrapper{
+  gap: var(--gap);
+}
+
+.upcoming-part-image-wrapper,
+.upcoming .spare{
+  min-height: var(--item-min-height-sm);
+}
+
+.upcoming .spare{
+  background-color: var(--secondary-background-color);
+}
 
 
 /* Popular tags */
