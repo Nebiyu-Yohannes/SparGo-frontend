@@ -576,7 +576,7 @@ body.light-theme{
 
 .upcoming-grid-wrapper .spare-data-container{
   position: static;
-  background-color: var(--transparent-dark-color); /* right color? */
+  background-color: transparent; /* right color? */
 }
 
 .upcoming-grid-wrapper .spare-name{
