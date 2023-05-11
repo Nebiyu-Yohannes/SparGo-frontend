@@ -585,19 +585,26 @@ body.light-theme{
 
 .see-more-container{
   margin-top: var(--margin-md);
+
 }
 
 .see-more-btn{
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
 }
 
-.see-more-btn .see-more-icon{
+.see-more-btn i{
   transition: transform .25s;
 }
 
-.see-more-btn:hover .see-more-icon{
-  transform: translateX(.5rem);
+.see-more-btn:hover i{
+  transform: translateX(.8rem);
 }
+
+
+
 /* Popular tags */
 
 /* Newsletter */
