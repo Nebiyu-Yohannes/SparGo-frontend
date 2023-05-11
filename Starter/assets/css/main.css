@@ -626,7 +626,20 @@ body.light-theme{
   z-index: 10;
 }
 
+.pop-part-container .spare:hover .pop-part-name{
+  color: var(--light-color);
+}
+
+.pop-part-container .spare:hover .spare-image{
+  transform: scale(1.035);
+}
+
+
+
 /* Newsletter */
+
+
+
 
 /* Footer */
 
