@@ -573,6 +573,26 @@ body.light-theme{
   background-color: var(--secondary-background-color);
 }
 
+.upcoming-part-image-wrapper{
+  position: relative;
+}
+
+.upcoming-grid-wrapper .spare-data-container{
+  position: static;
+  background-color: var(--transparent-dark-color); /* right color? */
+}
+
+.upcoming-grid-wrapper .spare-name{
+  margin-bottom: var(--margin-sm);
+}
+
+.see-more-container{
+  margin-top: var(--margin-md);
+}
+
+.see-more-btn{
+  text-transform: uppercase;
+}
 
 /* Popular tags */
 
