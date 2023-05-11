@@ -556,9 +556,6 @@ body.light-theme{
 
 /* Coming Soon */
 
-.upcoming {
-  background-color: red;
-}
 
 .upcoming-grid-wrapper{
   gap: var(--gap);
@@ -594,6 +591,13 @@ body.light-theme{
   text-transform: uppercase;
 }
 
+.see-more-btn i{
+  transition: transform 0.25s;
+}
+
+.see-more-btn:hover i{
+  transform: translate(0.5rem);
+}
 /* Popular tags */
 
 /* Newsletter */
