@@ -591,12 +591,12 @@ body.light-theme{
   text-transform: uppercase;
 }
 
-.see-more-btn i{
-  transition: transform 0.25s;
+.see-more-btn .see-more-icon{
+  transition: transform .25s;
 }
 
-.see-more-btn:hover i{
-  transform: translate(0.5rem);
+.see-more-btn:hover .see-more-icon{
+  transform: translateX(.5rem);
 }
 /* Popular tags */
 
