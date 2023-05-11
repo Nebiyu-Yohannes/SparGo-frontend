@@ -639,9 +639,33 @@ body.light-theme{
 /* Newsletter */
 
 
+.newsletter-section{
+  padding-bottom: 6rem;
+}
+
+.newsletter-title{
+  font-size: var(--font-size-lg);
+}
+
+.newsletter-description{
+  margin-bottom: 3rem;
+}
+
+/* additional styles for the newsletter form*/
+.newsletter-form input{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.newsletter-form{
+  width: fit-content;
+  align-self: center;
+}
 
 
 /* Footer */
+
+
+
 
 /* Scrollbar styles */
 
