@@ -651,7 +651,7 @@ body.light-theme{
   margin-bottom: 3rem;
 }
 
-/* additional styles for the newsletter form*/
+/* additional styles for the newsletter form */
 .newsletter-form input{
   padding-left: 2rem;
   padding-right: 2rem;
@@ -660,6 +660,7 @@ body.light-theme{
   width: fit-content;
   align-self: center;
 }
+
 
 
 /* Footer */
