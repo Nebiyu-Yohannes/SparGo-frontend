@@ -74,282 +74,473 @@
     </header>
 
     <!-- Search -->
-<div class="search-form-container container" id="search-form-container">
+  <div class="search-form-container container" id="search-form-container">
 
-  <div class="form-container-inner">
-    
-    <form action="" class="form">
+    <div class="form-container-inner">
       
-      <input type="text" class="form-input" placeholder="what are you looking for?">
-      <button class="btn form-button" type="submit">
-        <i class="ri-search-line"></i>
-      </button>  
+      <form action="" class="form">
+        
+        <input type="text" class="form-input" placeholder="what are you looking for?">
+        <button class="btn form-button" type="submit">
+          <i class="ri-search-line"></i>
+        </button>  
+      
+      </form>
+      
+      <span class="form-note"> press esc to close </span>
     
-    </form>
-    
-    <span class="form-note"> press esc to close </span>
-  
+    </div>
+
+    <button class="btn form-close-button place-items-center" id="form-close-button">
+      <i class="ri-close-line"></i>
+    </button>
+
   </div>
 
-  <button class="btn form-close-button place-items-center" id="form-close-button">
-    <i class="ri-close-line"></i>
-  </button>
 
-</div>
+      <!-- The Main Body of the home page -->
 
+  <main>
+    
+      <!-- Featured spares -->
 
-    <!-- The Main Body of the home page -->
+      <!-- section that holds the featured spares -->
+  <section class="featured-spares section section-header-offset">
+    <!-- container of the featured spares -->
+    <div class="featured-spares-container container d-grid">
+      <!-- this contains the contents of the featured spare parts -->
+      <div class="featured-content d-grid">
 
-<main>
-  
-    <!-- Featured spares -->
-
-    <!-- section that holds the featured spares -->
-<section class="featured-spares section section-header-offset">
-  <!-- container of the featured spares -->
-  <div class="featured-spares-container container d-grid">
-    <!-- this contains the contents of the featured spare parts -->
-    <div class="featured-content d-grid">
-
-      <!-- this contains the headline and it's description -->
-      <div class="headline-banner">
-        <h3 class="headline fancy-border">
-          <span class="place-items-center">Featured Spare Parts</span>
-        </h3>
-        <span class="headline-description">Scheduled Delivery At....</span>
-      </div>
-
-      <!-- a link container that holds a featured spare part of a particular car -->
-      <a href="./post.html" class="spare featured-spare featured-spare-1">
-        <img src="./assets/images/featured/featured-1.jpg" alt="" class="spare-image">
-        <span class="spare-car">TATA</span>
-
-        <div class="spare-data-container">
-          <div class="spare-data">
-            <span class="spare-type">Engine-Parts</span>
-            <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
-            <span class="spare-year">2022</span>            
-          </div>
-
-          <h3 class="spare-name title">Piston-Rings</h3>
-<!-- create a horizontally next/scrolling series of spare parts for that car -->
+        <!-- this contains the headline and it's description -->
+        <div class="headline-banner">
+          <h3 class="headline fancy-border">
+            <span class="place-items-center">Featured Spare Parts</span>
+          </h3>
+          <span class="headline-description">Scheduled Delivery At....</span>
         </div>
-      </a>
 
-      <!-- a link container that holds a featured spare part of a particular car -->
-      <a href="./post.html" class="spare featured-spare featured-spare-2">
-        <img src="./assets/images/featured/featured-2.jpg" alt="" class="spare-image">
-        <span class="spare-car">SUZUKI</span>
-      
-        <div class="spare-data-container">
-          <div class="spare-data">
-            <span class="spare-type">Engine-Parts</span>
-            <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
-            <span class="spare-year">2023</span>
-          </div>
-      
-          <h3 class="spare-name title">Gasket-Cylinder</h3>
-<!-- create a horizontally next/scrolling series of spare parts for that car -->
-        </div>
-      </a>
+        <!-- a link container that holds a featured spare part of a particular car -->
+        <a href="./post.html" class="spare featured-spare featured-spare-1">
+          <img src="./assets/images/featured/featured-1.jpg" alt="" class="spare-image">
+          <span class="spare-car">TATA</span>
 
-      <!-- a link container that holds a featured spare part of a particular car -->
-      <a href="./post.html" class="spare featured-spare featured-spare-3">
-        <img src="./assets/images/featured/featured-3.jpg" alt="" class="spare-image">
-        <span class="spare-car">TOYOTA</span>
-      
-        <div class="spare-data-container">
-          <div class="spare-data">
-            <span class="spare-type">Suspension-Parts</span>
-            <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
-            <span class="spare-year">2022</span>
-          </div>
-      
-          <h3 class="spare-name title">Universal-Joint-Kit</h3>
-<!-- create a horizontally next/scrolling series of spare parts for that car -->
-        </div>
-      </a>
-
-    </div>
-  </div> 
-</section>
-
-
-    <!-- Sidebar -->
-
-    <!-- sidebar containing the trending parts -->
-
-<div class="sidebar d-grid">
-  
-  <h3 class="title featured-content-title"> Trending Parts </h3>
-
-  <a href="#" class="trending-parts-box">
-
-    <div class="trending-spare-image-box">
-      <span class="trending-number place-items-center"> 01 </span>
-      <img src="/Starter/assets/images/trending/trending_1.jpg" alt="" class="spare-image">
-    </div>
-
-    <div class="trending-spare-data-box">
-      <div class="spare-data">
-        <span class="spare-type">Engine-Parts</span>
-        <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
-        <span class="spare-year">2022</span>
-      </div>
-
-      <h3 class="title spare-name">Piston-Rings</h3>
-
-    </div>
-  </a>
-
-  <a href="" class="trending-parts-box">
-  
-    <div class="trending-spare-image-box">
-      <span class="trending-number place-items-center"> 02 </span>
-      <img src="/Starter/assets/images/trending/trending_2.jpg" alt="trending-spare-image" class="spare-image">
-    </div>
-  
-    <div class="trending-spare-data-box">
-      <div class="spare-data">
-        <span class="spare-type">Engine-Parts</span>
-        <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
-        <span class="spare-year">2023</span>
-      </div>
-  
-      <h3 class="title spare-name">Gasket-Cylinder</h3>
-  
-    </div>
-  </a>
-
-  <a href="" class="trending-parts-box">
-  
-    <div class="trending-spare-image-box">
-      <span class="trending-number place-items-center"> 03 </span>
-      <img src="/Starter/assets/images/trending/trending_3.jpg" alt="trending-spare-image" class="spare-image">
-    </div>
-  
-    <div class="trending-spare-data-box">  
-      <div class="spare-data">
-        <span class="spare-type">Suspension-Parts</span>
-        <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
-        <span class="spare-year">2022</span>
-      </div>
-  
-      <h3 class="title spare-name">Universal-Joint-Kit</h3>
-  
-    </div>
-  </a>
-
-  <a href="" class="trending-parts-box">
-  
-    <div class="trending-spare-image-box">
-      <span class="trending-number place-items-center"> 04 </span>
-      <img src="/Starter/assets/images/trending/trending_4.jpg" alt="trending-spare-image" class="spare-image">
-    </div>
-  
-    <div class="trending-spare-data-box">
-      <div class="spare-data">
-        <span class="spare-type">Suspension-Parts</span>
-        <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
-        <span class="spare-year">2022</span>
-      </div>
-  
-      <h3 class="title spare-name">Universal-Joint-Kit</h3>
-  
-    </div>
-  </a>
-
-  <a href="" class="trending-parts-box">
-  
-    <div class="trending-spare-image-box">
-      <span class="trending-number place-items-center"> 05 </span>
-      <img src="/Starter/assets/images/trending/trending_5.jpg" alt="trending-spare-image" class="spare-image">
-    </div>
-  
-    <div class="trending-spare-data-box">
-      <div class="spare-data">
-        <span class="spare-type">Suspension-Parts</span>
-        <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
-        <span class="spare-year">2022</span>
-      </div>
-  
-      <h3 class="title spare-name">Universal-Joint-Kit</h3>
-  
-    </div>
-  </a>
-
-</div>
-
-
-
-    <!-- Quick read -->
-
-<section class="section quick-read">
-
-  <div class="container quick-read-container">
-
-    <h2 class="title section-title" data-name="Quick Read"> Quick Read </h2>
-
-    <div class="swiper quick-read-swiper">
-      
-      <div class="swiper-wrapper quick-read-swiper-wrapper">
-
-        <!-- the following are the quick-read-contents /in a link/ and contained in the swiper-wrapper element -->
-        
-        <a href="#" class="spare swiper-slide quick-read-swiper-slide">
-          
-          <img src="./assets/images/quick_read/quick_read_1.jpg" alt="" class="spare-image">
-
-          <div class="spare-data-container quick-read-data-container">
-            <div class="spare-data quick-read-data">
-              <span class="spare-type">Suspension-Parts</span>
-              <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
-              <span class="spare-year">2022</span>
-            </div>
-
-            <h2 class="title spare-name">Universal-Joint-Kit</h2>
-          
-          </div>
-        </a>
-
-        <a href="#" class="spare swiper-slide quick-read-swiper-slide">
-        
-          <img src="./assets/images/quick_read/quick_read_2.jpg" alt="" class="spare-image">
-        
-          <div class="spare-data-container quick-read-data-container">
-            <div class="spare-data quick-read-data">
+          <div class="spare-data-container">
+            <div class="spare-data">
               <span class="spare-type">Engine-Parts</span>
               <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
-              <span class="spare-year">2022</span>
+              <span class="spare-year">2022</span>            
             </div>
-        
-            <h2 class="title spare-name">piston-Rings</h2>
-        
+
+            <h3 class="spare-name title">Piston-Rings</h3>
+  <!-- create a horizontally next/scrolling series of spare parts for that car -->
           </div>
         </a>
 
-        <a href="#" class="spare swiper-slide quick-read-swiper-slide">
+        <!-- a link container that holds a featured spare part of a particular car -->
+        <a href="./post.html" class="spare featured-spare featured-spare-2">
+          <img src="./assets/images/featured/featured-2.jpg" alt="" class="spare-image">
+          <span class="spare-car">SUZUKI</span>
         
-          <img src="./assets/images/quick_read/quick_read_3.jpg" alt="" class="spare-image">
+          <div class="spare-data-container">
+            <div class="spare-data">
+              <span class="spare-type">Engine-Parts</span>
+              <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
+              <span class="spare-year">2023</span>
+            </div>
         
-          <div class="spare-data-container quick-read-data-container">
-            <div class="spare-data quick-read-data">
+            <h3 class="spare-name title">Gasket-Cylinder</h3>
+  <!-- create a horizontally next/scrolling series of spare parts for that car -->
+          </div>
+        </a>
+
+        <!-- a link container that holds a featured spare part of a particular car -->
+        <a href="./post.html" class="spare featured-spare featured-spare-3">
+          <img src="./assets/images/featured/featured-3.jpg" alt="" class="spare-image">
+          <span class="spare-car">TOYOTA</span>
+        
+          <div class="spare-data-container">
+            <div class="spare-data">
               <span class="spare-type">Suspension-Parts</span>
               <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
               <span class="spare-year">2022</span>
             </div>
         
-            <h2 class="title spare-name">Universal-Joint-Kit</h2>
-        
+            <h3 class="spare-name title">Universal-Joint-Kit</h3>
+  <!-- create a horizontally next/scrolling series of spare parts for that car -->
           </div>
         </a>
 
-        <a href="#" class="spare swiper-slide quick-read-swiper-slide">
+      </div>
+    </div> 
+  </section>
+
+
+      <!-- Sidebar -->
+
+      <!-- sidebar containing the trending parts -->
+
+  <div class="sidebar d-grid">
+    
+    <h3 class="title featured-content-title"> Trending Parts </h3>
+
+    <a href="#" class="trending-parts-box">
+
+      <div class="trending-spare-image-box">
+        <span class="trending-number place-items-center"> 01 </span>
+        <img src="/Starter/assets/images/trending/trending_1.jpg" alt="" class="spare-image">
+      </div>
+
+      <div class="trending-spare-data-box">
+        <div class="spare-data">
+          <span class="spare-type">Engine-Parts</span>
+          <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
+          <span class="spare-year">2022</span>
+        </div>
+
+        <h3 class="title spare-name">Piston-Rings</h3>
+
+      </div>
+    </a>
+
+    <a href="" class="trending-parts-box">
+    
+      <div class="trending-spare-image-box">
+        <span class="trending-number place-items-center"> 02 </span>
+        <img src="/Starter/assets/images/trending/trending_2.jpg" alt="trending-spare-image" class="spare-image">
+      </div>
+    
+      <div class="trending-spare-data-box">
+        <div class="spare-data">
+          <span class="spare-type">Engine-Parts</span>
+          <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
+          <span class="spare-year">2023</span>
+        </div>
+    
+        <h3 class="title spare-name">Gasket-Cylinder</h3>
+    
+      </div>
+    </a>
+
+    <a href="" class="trending-parts-box">
+    
+      <div class="trending-spare-image-box">
+        <span class="trending-number place-items-center"> 03 </span>
+        <img src="/Starter/assets/images/trending/trending_3.jpg" alt="trending-spare-image" class="spare-image">
+      </div>
+    
+      <div class="trending-spare-data-box">  
+        <div class="spare-data">
+          <span class="spare-type">Suspension-Parts</span>
+          <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
+          <span class="spare-year">2022</span>
+        </div>
+    
+        <h3 class="title spare-name">Universal-Joint-Kit</h3>
+    
+      </div>
+    </a>
+
+    <a href="" class="trending-parts-box">
+    
+      <div class="trending-spare-image-box">
+        <span class="trending-number place-items-center"> 04 </span>
+        <img src="/Starter/assets/images/trending/trending_4.jpg" alt="trending-spare-image" class="spare-image">
+      </div>
+    
+      <div class="trending-spare-data-box">
+        <div class="spare-data">
+          <span class="spare-type">Suspension-Parts</span>
+          <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
+          <span class="spare-year">2022</span>
+        </div>
+    
+        <h3 class="title spare-name">Universal-Joint-Kit</h3>
+    
+      </div>
+    </a>
+
+    <a href="" class="trending-parts-box">
+    
+      <div class="trending-spare-image-box">
+        <span class="trending-number place-items-center"> 05 </span>
+        <img src="/Starter/assets/images/trending/trending_5.jpg" alt="trending-spare-image" class="spare-image">
+      </div>
+    
+      <div class="trending-spare-data-box">
+        <div class="spare-data">
+          <span class="spare-type">Suspension-Parts</span>
+          <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
+          <span class="spare-year">2022</span>
+        </div>
+    
+        <h3 class="title spare-name">Universal-Joint-Kit</h3>
+    
+      </div>
+    </a>
+
+  </div>
+
+
+
+      <!-- Quick read -->
+
+  <section class="section quick-read">
+
+    <div class="container quick-read-container">
+
+      <h2 class="title section-title" data-name="Quick Read"> Quick Read </h2>
+
+      <div class="swiper quick-read-swiper">
         
-          <img src="./assets/images/quick_read/quick_read_4.jpg" alt="" class="spare-image">
+        <div class="swiper-wrapper quick-read-swiper-wrapper">
+
+          <!-- the following are the quick-read-contents /in a link/ and contained in the swiper-wrapper element -->
+          
+          <a href="#" class="spare swiper-slide quick-read-swiper-slide">
+            
+            <img src="./assets/images/quick_read/quick_read_1.jpg" alt="" class="spare-image">
+
+            <div class="spare-data-container quick-read-data-container">
+              <div class="spare-data quick-read-data">
+                <span class="spare-type">Suspension-Parts</span>
+                <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
+                <span class="spare-year">2022</span>
+              </div>
+
+              <h2 class="title spare-name">Universal-Joint-Kit</h2>
+            
+            </div>
+          </a>
+
+          <a href="#" class="spare swiper-slide quick-read-swiper-slide">
+          
+            <img src="./assets/images/quick_read/quick_read_2.jpg" alt="" class="spare-image">
+          
+            <div class="spare-data-container quick-read-data-container">
+              <div class="spare-data quick-read-data">
+                <span class="spare-type">Engine-Parts</span>
+                <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
+                <span class="spare-year">2022</span>
+              </div>
+          
+              <h2 class="title spare-name">piston-Rings</h2>
+          
+            </div>
+          </a>
+
+          <a href="#" class="spare swiper-slide quick-read-swiper-slide">
+          
+            <img src="./assets/images/quick_read/quick_read_3.jpg" alt="" class="spare-image">
+          
+            <div class="spare-data-container quick-read-data-container">
+              <div class="spare-data quick-read-data">
+                <span class="spare-type">Suspension-Parts</span>
+                <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
+                <span class="spare-year">2022</span>
+              </div>
+          
+              <h2 class="title spare-name">Universal-Joint-Kit</h2>
+          
+            </div>
+          </a>
+
+          <a href="#" class="spare swiper-slide quick-read-swiper-slide">
+          
+            <img src="./assets/images/quick_read/quick_read_4.jpg" alt="" class="spare-image">
+          
+            <div class="spare-data-container quick-read-data-container">
+              <div class="spare-data quick-read-data">
+                <span class="spare-type">Engine-Parts</span>
+                <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
+                <span class="spare-year">2023</span>
+              </div>
+          
+              <h2 class="title spare-name">Gasket-Cylinder</h2>
+          
+            </div>
+          </a>
+
+          <a href="#" class="spare swiper-slide quick-read-swiper-slide">
+          
+            <img src="./assets/images/quick_read/quick_read_5.jpg" alt="" class="spare-image">
+          
+            <div class="spare-data-container quick-read-data-container">
+              <div class="spare-data quick-read-data">
+                <span class="spare-type">Suspension-Parts</span>
+                <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
+                <span class="spare-year">2022</span>
+              </div>
+          
+              <h2 class="title spare-name">Universal-Joint-Kit</h2>
+          
+            </div>
+          </a>
+
+          <a href="#" class="spare swiper-slide quick-read-swiper-slide">
+          
+            <img src="./assets/images/quick_read/quick_read_6.jpg" alt="" class="spare-image">
+          
+            <div class="spare-data-container quick-read-data-container">
+              <div class="spare-data quick-read-data">
+                <span class="spare-type">Engine-Parts</span>
+                <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
+                <span class="spare-year">2023</span>
+              </div>
+          
+              <h2 class="title spare-name">piston-Rings</h2>
+          
+            </div>
+          </a>
+        </div>
+
+        <!-- the following are going to be the buttons and the paginations of the swiper element /inside the swiper element/ -->
         
-          <div class="spare-data-container quick-read-data-container">
-            <div class="spare-data quick-read-data">
+        <div class="swiper-button-prev quick-read-swiper-button-prev swiper-controls"> <!-- perhaps an arrow sign --> </div>
+        
+        <div class="swiper-button-next quick-read-swiper-button-next swiper-controls"> <!-- perhaps an arrow sign --> </div>
+        
+        <div class="swiper-pagination quick-read-swiper-pagination"> <!-- some type of pagination  --> </div>
+      
+      </div>
+    </div>
+  </section>
+
+
+
+      <!-- Coming Soon.. -->
+
+  <section class="upcoming section">
+
+    <div class="container upcoming-container">
+
+      <h2 class="title section-title upcoming-section-title" data-name="Coming Soon">Coming Soon</h2>
+
+      <div class="upcoming-grid-wrapper d-grid">
+
+        <a href="#" class="spare d-grid upcoming-spare">
+
+          <div class="upcoming-part-image-wrapper d-grid">  
+            <img src="./assets/images/older_posts/older_posts_1.jpg" alt="" class="spare-image upcoming-spare-image">
+          </div>
+
+          <div class="spare-data-container upcoming-part-data-container">
+              
+              <div class="spare-data">
+                <span class="spare-type">Engine-Parts</span>
+                <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
+                <span class="spare-year">2023</span>
+              </div>
+
+              <h2 class="title spare-name"> Piston-Rings </h2>
+
+              <p class="spare-description">Lorem ipsum, dolor sit 
+                amet consectetur adipisicing elit. Qui eaque 
+                cumque et sequi mollitia dolorum hic quasi debitis 
+                non rerum, repel.</p>
+          </div>
+        </a>
+
+        <a href="#" class="spare d-grid upcoming-spare">
+        
+          <div class="upcoming-part-image-wrapper d-grid">
+            <img src="./assets/images/older_posts/older_posts_2.jpg" alt="" class="spare-image upcoming-spare-image">
+          </div>
+        
+          <div class="spare-data-container upcoming-part-data-container">
+        
+            <div class="spare-data">
+              <span class="spare-type">Engine-Parts</span>
+              <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
+              <span class="spare-year">2023</span>
+            </div>
+        
+            <h2 class="title spare-name"> Timing-Belt </h2>
+        
+            <p class="spare-description">Lorem ipsum, dolor sit
+              amet consectetur adipisicing elit. Qui eaque
+              cumque et sequi mollitia dolorum hic quasi debitis
+              non rerum, repel.</p>
+          </div>
+        </a>
+
+        <a href="#" class="spare d-grid upcoming-spare">
+        
+          <div class="upcoming-part-image-wrapper d-grid">
+            <img src="./assets/images/older_posts/older_posts_3.jpg" alt="" class="spare-image upcoming-spare-image">
+          </div>
+        
+          <div class="spare-data-container upcoming-part-data-container">
+        
+            <div class="spare-data">
+              <span class="spare-type">Engine-Parts</span>
+              <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
+              <span class="spare-year">2023</span>
+            </div>
+        
+            <h2 class="title spare-name"> Crank Shaft</h2>
+        
+            <p class="spare-description">Lorem ipsum, dolor sit
+              amet consectetur adipisicing elit. Qui eaque
+              cumque et sequi mollitia dolorum hic quasi debitis
+              non rerum, repel.</p>
+          </div>
+        </a>
+
+        <a href="#" class="spare d-grid upcoming-spare">
+        
+          <div class="upcoming-part-image-wrapper d-grid">
+            <img src="./assets/images/older_posts/older_posts_4.jpg" alt="" class="spare-image upcoming-spare-image">
+          </div>
+        
+          <div class="spare-data-container upcoming-part-data-container">
+        
+            <div class="spare-data">
+              <span class="spare-type">Engine-Parts</span>
+              <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
+              <span class="spare-year">2023</span>
+            </div>
+        
+            <h2 class="title spare-name"> Universal-Joint-Kit</h2>
+        
+            <p class="spare-description">Lorem ipsum, dolor sit
+              amet consectetur adipisicing elit. Qui eaque
+              cumque et sequi mollitia dolorum hic quasi debitis
+              non rerum, repel.</p>
+          </div>
+        </a>
+
+        <a href="#" class="spare d-grid upcoming-spare">
+        
+          <div class="upcoming-part-image-wrapper d-grid">
+            <img src="./assets/images/older_posts/older_posts_5.jpg" alt="" class="spare-image upcoming-spare-image">
+          </div>
+        
+          <div class="spare-data-container upcoming-part-data-container">
+        
+            <div class="spare-data">
+              <span class="spare-type">Engine-Parts</span>
+              <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
+              <span class="spare-year">2023</span>
+            </div>
+        
+            <h2 class="title spare-name"> Tapper Roller</h2>
+        
+            <p class="spare-description">Lorem ipsum, dolor sit
+              amet consectetur adipisicing elit. Qui eaque
+              cumque et sequi mollitia dolorum hic quasi debitis
+              non rerum, repel.</p>
+          </div>
+        </a>
+
+        <a href="#" class="spare d-grid upcoming-spare">
+        
+          <div class="upcoming-part-image-wrapper d-grid">
+            <img src="./assets/images/older_posts/older_posts_6.jpg" alt="" class="spare-image upcoming-spare-image">
+          </div>
+        
+          <div class="spare-data-container upcoming-part-data-container">
+        
+            <div class="spare-data">
               <span class="spare-type">Engine-Parts</span>
               <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
               <span class="spare-year">2023</span>
@@ -357,300 +548,109 @@
         
             <h2 class="title spare-name">Gasket-Cylinder</h2>
         
+            <p class="spare-description">Lorem ipsum, dolor sit
+              amet consectetur adipisicing elit. Qui eaque
+              cumque et sequi mollitia dolorum hic quasi debitis
+              non rerum, repel.</p>
           </div>
         </a>
+        <!-- 6times -->
+      </div>
 
-        <a href="#" class="spare swiper-slide quick-read-swiper-slide">
-        
-          <img src="./assets/images/quick_read/quick_read_5.jpg" alt="" class="spare-image">
-        
-          <div class="spare-data-container quick-read-data-container">
-            <div class="spare-data quick-read-data">
-              <span class="spare-type">Suspension-Parts</span>
-              <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
-              <span class="spare-year">2022</span>
-            </div>
-        
-            <h2 class="title spare-name">Universal-Joint-Kit</h2>
-        
-          </div>
-        </a>
-
-        <a href="#" class="spare swiper-slide quick-read-swiper-slide">
-        
-          <img src="./assets/images/quick_read/quick_read_6.jpg" alt="" class="spare-image">
-        
-          <div class="spare-data-container quick-read-data-container">
-            <div class="spare-data quick-read-data">
-              <span class="spare-type">Engine-Parts</span>
-              <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
-              <span class="spare-year">2023</span>
-            </div>
-        
-            <h2 class="title spare-name">piston-Rings</h2>
-        
-          </div>
+      <!-- add a see more element inside the upcoming-grid-wrapper element -->
+      <div class="see-more-container">
+        <a href="" class="btn see-more-btn place-items-center">
+          See more <i class="ri-arrow-right-line see-more-icon"></i>
         </a>
       </div>
 
-      <!-- the following are going to be the buttons and the paginations of the swiper element /inside the swiper element/ -->
-      
-      <div class="swiper-button-prev quick-read-swiper-button-prev swiper-controls"> <!-- perhaps an arrow sign --> </div>
-      
-      <div class="swiper-button-next quick-read-swiper-button-next swiper-controls"> <!-- perhaps an arrow sign --> </div>
-      
-      <div class="swiper-pagination quick-read-swiper-pagination"> <!-- some type of pagination  --> </div>
-    
     </div>
-  </div>
-</section>
+  </section>
 
 
 
-    <!-- Coming Soon.. -->
-
-<section class="upcoming section">
-
-  <div class="container upcoming-container">
-
-    <h2 class="title section-title upcoming-section-title" data-name="Coming Soon">Coming Soon</h2>
-
-    <div class="upcoming-grid-wrapper d-grid">
-
-      <a href="#" class="spare d-grid upcoming-spare">
-
-        <div class="upcoming-part-image-wrapper d-grid">  
-          <img src="./assets/images/older_posts/older_posts_1.jpg" alt="" class="spare-image upcoming-spare-image">
-        </div>
-
-        <div class="spare-data-container upcoming-part-data-container">
-            
-            <div class="spare-data">
-              <span class="spare-type">Engine-Parts</span>
-              <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
-              <span class="spare-year">2023</span>
-            </div>
-
-            <h2 class="title spare-name"> Piston-Rings </h2>
-
-            <p class="spare-description">Lorem ipsum, dolor sit 
-              amet consectetur adipisicing elit. Qui eaque 
-              cumque et sequi mollitia dolorum hic quasi debitis 
-              non rerum, repel.</p>
-        </div>
-      </a>
-
-      <a href="#" class="spare d-grid upcoming-spare">
-      
-        <div class="upcoming-part-image-wrapper d-grid">
-          <img src="./assets/images/older_posts/older_posts_2.jpg" alt="" class="spare-image upcoming-spare-image">
-        </div>
-      
-        <div class="spare-data-container upcoming-part-data-container">
-      
-          <div class="spare-data">
-            <span class="spare-type">Engine-Parts</span>
-            <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
-            <span class="spare-year">2023</span>
-          </div>
-      
-          <h2 class="title spare-name"> Timing-Belt </h2>
-      
-          <p class="spare-description">Lorem ipsum, dolor sit
-            amet consectetur adipisicing elit. Qui eaque
-            cumque et sequi mollitia dolorum hic quasi debitis
-            non rerum, repel.</p>
-        </div>
-      </a>
-
-      <a href="#" class="spare d-grid upcoming-spare">
-      
-        <div class="upcoming-part-image-wrapper d-grid">
-          <img src="./assets/images/older_posts/older_posts_3.jpg" alt="" class="spare-image upcoming-spare-image">
-        </div>
-      
-        <div class="spare-data-container upcoming-part-data-container">
-      
-          <div class="spare-data">
-            <span class="spare-type">Engine-Parts</span>
-            <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
-            <span class="spare-year">2023</span>
-          </div>
-      
-          <h2 class="title spare-name"> Crank Shaft</h2>
-      
-          <p class="spare-description">Lorem ipsum, dolor sit
-            amet consectetur adipisicing elit. Qui eaque
-            cumque et sequi mollitia dolorum hic quasi debitis
-            non rerum, repel.</p>
-        </div>
-      </a>
-
-      <a href="#" class="spare d-grid upcoming-spare">
-      
-        <div class="upcoming-part-image-wrapper d-grid">
-          <img src="./assets/images/older_posts/older_posts_4.jpg" alt="" class="spare-image upcoming-spare-image">
-        </div>
-      
-        <div class="spare-data-container upcoming-part-data-container">
-      
-          <div class="spare-data">
-            <span class="spare-type">Engine-Parts</span>
-            <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
-            <span class="spare-year">2023</span>
-          </div>
-      
-          <h2 class="title spare-name"> Universal-Joint-Kit</h2>
-      
-          <p class="spare-description">Lorem ipsum, dolor sit
-            amet consectetur adipisicing elit. Qui eaque
-            cumque et sequi mollitia dolorum hic quasi debitis
-            non rerum, repel.</p>
-        </div>
-      </a>
-
-      <a href="#" class="spare d-grid upcoming-spare">
-      
-        <div class="upcoming-part-image-wrapper d-grid">
-          <img src="./assets/images/older_posts/older_posts_5.jpg" alt="" class="spare-image upcoming-spare-image">
-        </div>
-      
-        <div class="spare-data-container upcoming-part-data-container">
-      
-          <div class="spare-data">
-            <span class="spare-type">Engine-Parts</span>
-            <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
-            <span class="spare-year">2023</span>
-          </div>
-      
-          <h2 class="title spare-name"> Tapper Roller</h2>
-      
-          <p class="spare-description">Lorem ipsum, dolor sit
-            amet consectetur adipisicing elit. Qui eaque
-            cumque et sequi mollitia dolorum hic quasi debitis
-            non rerum, repel.</p>
-        </div>
-      </a>
-
-      <a href="#" class="spare d-grid upcoming-spare">
-      
-        <div class="upcoming-part-image-wrapper d-grid">
-          <img src="./assets/images/older_posts/older_posts_6.jpg" alt="" class="spare-image upcoming-spare-image">
-        </div>
-      
-        <div class="spare-data-container upcoming-part-data-container">
-      
-          <div class="spare-data">
-            <span class="spare-type">Engine-Parts</span>
-            <span class="spare-data-spacer"> <!-- a symbol perhaps --> </span>
-            <span class="spare-year">2023</span>
-          </div>
-      
-          <h2 class="title spare-name">Gasket-Cylinder</h2>
-      
-          <p class="spare-description">Lorem ipsum, dolor sit
-            amet consectetur adipisicing elit. Qui eaque
-            cumque et sequi mollitia dolorum hic quasi debitis
-            non rerum, repel.</p>
-        </div>
-      </a>
-      <!-- 6times -->
-    </div>
-
-    <!-- add a see more element inside the upcoming-grid-wrapper element -->
-    <div class="see-more-container">
-      <a href="" class="btn see-more-btn place-items-center">
-        See more <i class="ri-arrow-right-line see-more-icon"></i>
-      </a>
-    </div>
-
-  </div>
-</section>
+      <!-- Popular - parts -->
 
 
+  <section class="section pop-part">
 
-    <!-- Popular - parts -->
+    <div class="container pop-container">
 
+      <h2 class="title section-title" data-name="Popular Parts"> Popular Parts </h2>
 
-<section class="section pop-part">
+      <div class="pop-part-container d-grid">
 
-  <div class="container pop-container">
+        <a href="#" class="spare">
+          <span class="pop-part-name">Gasket-Cylinder</span>
+          
+          <img src="./assets/images/tags/fitness-tag.jpg" alt="" class="spare-image">
+        </a>
 
-    <h2 class="title section-title" data-name="Popular Parts"> Popular Parts </h2>
-
-    <div class="pop-part-container d-grid">
-
-      <a href="#" class="spare">
-        <span class="pop-part-name">Gasket-Cylinder</span>
+        <a href="#" class="spare">
+          <span class="pop-part-name">Piston-Rings</span>
         
-        <img src="./assets/images/tags/fitness-tag.jpg" alt="" class="spare-image">
-      </a>
+          <img src="./assets/images/tags/food-tag.jpg" alt="" class="spare-image">
+        </a>
 
-      <a href="#" class="spare">
-        <span class="pop-part-name">Piston-Rings</span>
-      
-        <img src="./assets/images/tags/food-tag.jpg" alt="" class="spare-image">
-      </a>
+        <a href="#" class="spare">
+          <span class="pop-part-name">Universal-Joint-Kit</span>
+        
+          <img src="./assets/images/tags/health-tag.jpg" alt="" class="spare-image">
+        </a>
 
-      <a href="#" class="spare">
-        <span class="pop-part-name">Universal-Joint-Kit</span>
-      
-        <img src="./assets/images/tags/health-tag.jpg" alt="" class="spare-image">
-      </a>
+        <a href="#" class="spare">
+          <span class="pop-part-name">Timing-Belt</span>
+        
+          <img src="./assets/images/tags/nature-tag.jpg" alt="" class="spare-image">
+        </a>
 
-      <a href="#" class="spare">
-        <span class="pop-part-name">Timing-Belt</span>
-      
-        <img src="./assets/images/tags/nature-tag.jpg" alt="" class="spare-image">
-      </a>
+        <a href="#" class="spare">
+          <span class="pop-part-name">Crank Shaft</span>
+        
+          <img src="./assets/images/tags/technology-tag.jpg" alt="" class="spare-image">
+        </a>
 
-      <a href="#" class="spare">
-        <span class="pop-part-name">Crank Shaft</span>
-      
-        <img src="./assets/images/tags/technology-tag.jpg" alt="" class="spare-image">
-      </a>
+        <a href="#" class="spare">
+          <span class="pop-part-name">Tapper Roller</span>
+        
+          <img src="./assets/images/tags/travel-tag.jpg" alt="" class="spare-image">
+        </a>
 
-      <a href="#" class="spare">
-        <span class="pop-part-name">Tapper Roller</span>
-       
-        <img src="./assets/images/tags/travel-tag.jpg" alt="" class="spare-image">
-      </a>
+      </div>
 
     </div>
-
-  </div>
-</section>
+  </section>
 
 
 
-    <!-- Newsletter -->
+      <!-- Newsletter -->
 
-<section class="sectiion newsletter-section">
+  <section class="sectiion newsletter-section">
 
-  <div class="container">
+    <div class="container">
 
-    <h2 class="title section-title" data-name="newsletter">Newsletter</h2>
+      <h2 class="title section-title" data-name="newsletter">Newsletter</h2>
 
-    <div class="form-container-inner">
-      
-      <h6 class="title">Subscribe to SpareGo</h6>
+      <div class="form-container-inner">
+        
+        <h6 class="title">Subscribe to SpareGo</h6>
 
-      <p class="newsletter-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quasi eveniet, dolorem vitae quae, pariatur praesentium, impedit aut esse ad doloremque fugit nihil eaque. </p>
+        <p class="newsletter-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quasi eveniet, dolorem vitae quae, pariatur praesentium, impedit aut esse ad doloremque fugit nihil eaque. </p>
 
-      <form action="" class="form newsletter-form">
-        <input type="text" class="form-input" placeholder="Enter Your Email Here">
-        <button class="btn form-btn" type="submit">
-          <i class="ri-mail-send-line"></i>
-        </button>
-      </form>
+        <form action="" class="form newsletter-form">
+          <input type="text" class="form-input" placeholder="Enter Your Email Here">
+          <button class="btn form-btn" type="submit">
+            <i class="ri-mail-send-line"></i>
+          </button>
+        </form>
+
+      </div>
 
     </div>
+  </section>
+      
 
-  </div>
-</section>
-    
-
-</main> <!-- end of the Main Body of the home page-->
+  </main> <!-- end of the Main Body of the home page-->
 
     <!-- Footer -->
 
