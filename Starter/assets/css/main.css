@@ -607,6 +607,19 @@ body.light-theme{
 
 /* Popular tags */
 
+
+.pop-part-container{
+  gap: var(--gap);
+}
+
+.pop-part-container .spare{
+  min-height: var(--item-min-height-sm);
+}
+
+.pop-part-name{
+  position: absolute;
+}
+
 /* Newsletter */
 
 /* Footer */
