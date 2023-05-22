@@ -114,6 +114,7 @@ body.light-theme{
 
 
 /* Header */
+
 .header{
   background-color: var(--secondary-background-color);
   position: fixed;
@@ -209,6 +210,10 @@ body.light-theme{
 
 .menu-toggle-icon.activated .close-menu-icon {
   display: block;
+}
+
+::-webkit-scrollbar-thumb.activated{
+  background: var(--secondary-background-color);
 }
 
 

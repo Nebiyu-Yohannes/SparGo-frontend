@@ -27,6 +27,24 @@ window.addEventListener('scroll', scrollHeader);
 
 
 
+// ------------------- NOT WORKING GET BACK TO IT ---------------------------
+
+// This is a function that activates the scrollbar background-property when it's less than 15
+const scrollbarBackground = () => {
+   // to hold the element
+   const scrollBars = ElementSelector('.webkit-scrollbar-thumb');
+   // based on a condition, add or remove classes and styles
+   if (this.scrollY < 15){
+      scrollBars.classList.add('activated');
+   }else{
+      scrollBars.classList.remove('activated');
+   }
+};
+// we call the function using an eventlistener to the window
+window.addEventListener('scroll', scrollbarBackground);
+
+
+
 // Open menu & search pop-up
 
 const menuToggleIcon = ElementSelector('.menu-toggle-icon');
