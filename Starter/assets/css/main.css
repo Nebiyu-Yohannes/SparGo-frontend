@@ -675,7 +675,7 @@ body.light-theme{
 }
 
 .company-data-container{
-  background-color: green;
+  background-color: green; 
   display: flex;
   flex-direction: column;
   gap: 0rem;
