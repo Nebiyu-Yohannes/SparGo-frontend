@@ -667,7 +667,7 @@ body.light-theme{
 /* Footer */
 
 .footer{
-  background-color: red; /* secondary background color */
+  background-color: var(--secondary-background-color); /* secondary background color */
 }
 
 .footer-container{
@@ -675,7 +675,7 @@ body.light-theme{
 }
 
 .company-data-container{
-  background-color: green; 
+  /* background-color: green; */
   display: flex;
   flex-direction: column;
   gap: 0rem;
