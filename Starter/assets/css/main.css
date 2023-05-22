@@ -708,8 +708,31 @@ body.light-theme{
 }
 
 
+
 /* Scrollbar styles */
 
+
+::-webkit-scrollbar{
+  width: 1.1rem;
+}
+
+::-webkit-scrollbar-track{
+  background: #c3c3c3;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #45011f;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #2e303b;
+}
+
+
+
 /* Blog post */
+
+
+
 
 /* Media queries */
