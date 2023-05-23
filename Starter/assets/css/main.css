@@ -717,7 +717,21 @@ body.light-theme{
 /* Scrollbar styles */
 
 
-::-webkit-scrollbar{
+body.activated{
+  overflow: scroll;
+  scrollbar-width: 10rem;
+  scrollbar-color: black;
+  scrollbar-track-color: pink;
+}
+
+/* ::-webkit-scrollbar{
+  width: 10rem;
+
+} */
+
+
+
+/* .example::-webkit-scrollbar{
   width: 1.1rem;
 }
 
@@ -731,7 +745,7 @@ body.light-theme{
 
 ::-webkit-scrollbar-thumb:hover{
   background: #2e303b;
-}
+} */
 
 
 
