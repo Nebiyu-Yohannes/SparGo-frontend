@@ -757,6 +757,7 @@ body.activated{
 }
 
 .part-post-data{
+  margin-top: 6rem;
   background-color: red;
   display: flex;
   flex-direction: column;
@@ -770,6 +771,10 @@ body.activated{
 
 .part-post .spare-data{
   margin: 2.5rem;
+}
+
+.part-post img{
+  width: 100%;
 }
 
 /* Media queries */
