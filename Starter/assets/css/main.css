@@ -749,9 +749,12 @@ body.activated{
 
 
 
-/* Blog post */
+/* Part post */
 
-
+.part-post{
+  
+  padding-bottom: 10rem;
+}
 
 
 /* Media queries */
