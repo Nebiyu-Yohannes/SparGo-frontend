@@ -752,13 +752,11 @@ body.activated{
 /* Part post */
 
 .part-post{
-  background-color: green;
   padding-bottom: 5rem;
 }
 
 .part-post-data{
   padding-top: 5rem;
-  background-color: red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -798,7 +796,41 @@ body.activated{
 }
 
 .quote span{
-  font-size: 5rem;
+  font-size: rem;
 }
+
+.vendor{
+  margin-top: 3rem;
+  background-color: var(--secondary-background-color);
+  gap: var(--gap);
+}
+
+.vendor-image-box{
+  position: relative;
+  height: var(--item-min-height-sm);
+}
+
+.vendor-info{
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.vendor-name{
+  color: var(--light-color);
+  font-weight: 400;
+}
+
+.vendor-info p{
+  max-width: 40rem;
+  margin-bottom: 1rem;
+}
+
+.vendor-info .social-media{
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
 
 /* Media queries */
