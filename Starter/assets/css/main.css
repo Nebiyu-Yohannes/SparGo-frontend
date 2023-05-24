@@ -775,6 +775,14 @@ body.activated{
 
 .part-post img{
   width: 100%;
+  height: var(--item-min-height-sm);
+  object-fit: cover;
+  object-position: 1;
+  
+  transition: transform .25s;
 }
+
+
+
 
 /* Media queries */
