@@ -835,4 +835,25 @@ body.activated{
 
 
 
-/* Media queries -- making it responsive    /
+/* Media queries -- making it responsive    */
+
+
+@media screen and (min-width: 700px){
+  
+  .trending-parts-box{
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .trending-spare-image-box{
+    width: 50%;
+  }
+
+  .trending-spare-data-box{
+    margin: auto;
+    text-align: center;
+  }
+
+  .pop
+
+}
