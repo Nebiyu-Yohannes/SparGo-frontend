@@ -665,6 +665,15 @@ body.light-theme{
   margin-bottom: 3rem;
 }
 
+.newsletter-des-tit-cont {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+
+/* add styles to the newsletter layout */
+
+
 /* additional styles for the newsletter form */
 .newsletter-form input{
   padding-left: 2rem;
@@ -707,7 +716,13 @@ body.light-theme{
 }
 
 .copyright-notice{
+  position: absolute;
+  width: 100%;
   opacity: 0.8;
+  background-color: red;
+  padding-top: 3rem;
+  text-align: center;
+
 }
 
 .footer-list{
@@ -872,8 +887,10 @@ body.activated{
     max-width: 40rem;
   }
 
-  .form-container-inner{
-    align-items: center;
+  .newsletter-des-tit-cont{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
   }
 
   .company-data-container{
@@ -890,6 +907,10 @@ body.activated{
 /* second break point at 768px width */
 
 @media screen and (min-width: 768px){
+
+  .newsletter-description{
+    max-width: 100% !important;
+  }
 
   .featured-content{
     grid-template-columns: repeat(4, 1fr);
