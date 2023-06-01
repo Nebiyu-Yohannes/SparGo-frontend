@@ -260,6 +260,9 @@ body.light-theme{
   width: 100%;
 }
 
+.search-form input{
+  padding: 2rem;
+}
 /* trying to align the placeholder text 
 .placeholder{
   justify-self: center;
