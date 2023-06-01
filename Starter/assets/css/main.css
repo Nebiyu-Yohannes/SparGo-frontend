@@ -908,5 +908,16 @@ body.activated{
     grid-row: 4/6;
   }
 
-  
+  .upcoming .spare{
+    grid-template-columns: 25rem 1fr;
+  }
+
+  .upcoming-part-image-wrapper{
+    height: auto;
+  }
+
+  .part-post-data img{
+    height: var(--item-min-height-md);
+  }
+
 }
