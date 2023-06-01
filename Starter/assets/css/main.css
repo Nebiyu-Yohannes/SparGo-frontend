@@ -971,7 +971,14 @@ body.activated{
     grid-template-columns: 1fr 40rem;
   }
 
-}
+  .trending-spare-image-box{
+    width: 10rem;
+    height: 10rem;
+  }
+ 
+  }
+
+
 
 
 
