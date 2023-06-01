@@ -881,3 +881,32 @@ body.activated{
 
 /* second break point at 768px width */
 
+@media screen and (min-width: 768px){
+
+  .featured-content{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 5rem repeat(4, 1fr);
+  }
+
+  .headline-banner{
+    grid-column: 1/-1;
+    font-size: var(--font-size-sm);
+  }
+
+  /* kinda like setting it's size for this particular condition */
+  .featured-spare{
+    grid-column: 3/-1;
+    grid-row: 2/4;
+  }
+
+  .featured-spare-1{
+    grid-column: 1/3;
+  }
+
+  .featured-spare-3{
+    grid-column: 1/-1;
+    grid-row: 4/6;
+  }
+
+  
+}
