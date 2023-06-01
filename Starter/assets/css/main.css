@@ -339,6 +339,7 @@ body.light-theme{
 
 .headline span{
   height: inherit;
+  padding: 1rem !important;
 }
 
 .fancy-border{
