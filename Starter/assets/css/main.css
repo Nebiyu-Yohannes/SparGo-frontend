@@ -444,6 +444,10 @@ body.light-theme{
   color: var(--hover-light-color);
 }
 
+.spare:hover .title{
+  color: var(--hover-light-color);
+}
+
 
 
 /* Featured articles - Sidebar */
