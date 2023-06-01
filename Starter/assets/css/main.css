@@ -971,12 +971,46 @@ body.activated{
     grid-template-columns: 1fr 40rem;
   }
 
+  /* make the sidebar equal with the featured content height  */
+
   .trending-spare-image-box{
     width: 10rem;
     height: 10rem;
   }
- 
+
+  .pop-part-container{
+    grid-template-columns: repeat(3, 1fr);
   }
+
+  .footer-container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .company-data-container{
+    grid-column: span 2;
+  }
+
+  .company-description{
+    max-width: 85%;
+  }
+
+  .copyright-notice{
+    margin-top: auto;
+  }
+
+  .part-post-data img{
+    height: 40rem;
+  }
+  
+}
+
+
+
+/* fourth breakpoint at width 1200px */
+
+
+ 
+  
 
 
 
