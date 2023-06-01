@@ -628,6 +628,7 @@ body.light-theme{
   transform: translate(-50%, -50%);
   background-color: var(--transparent-dark-color);
   padding: 1rem 2rem;
+  text-align: center;
   z-index: 10;
 }
 
@@ -854,5 +855,29 @@ body.activated{
     text-align: center;
   }
 
+  .pop-part-container,
+  .footer-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .newsletter-description{
+    max-width: 40rem;
+  }
+
+  .form-container-inner{
+    align-items: center;
+  }
+
+  .company-data-container{
+    order: 0;
+  }
+
+  .vendor{
+    grid-template-columns: 25rem 1fr;
+  }
 
 }
+
+
+/* second break point at 768px width */
+
