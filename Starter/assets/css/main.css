@@ -952,6 +952,25 @@ body.activated{
     padding-right: 1rem;
   }
 
+  .sign-up-btn{
+    padding: .3rem;
+  }
+
+  /* creating a keyframe animation for the fancy border of the signup button */
+  @keyframes animate_register {
+    to{
+      transform: translateX(-50%);
+    }
+  }
+
+  .fancy-border:hover::before {
+    animation: animate_register .5s linear infinite;
+  }
+
+  .featured-spares-container{
+    grid-template-columns: 1fr 40rem;
+  }
+
 }
 
 
