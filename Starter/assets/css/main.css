@@ -921,3 +921,38 @@ body.activated{
   }
 
 }
+
+
+
+@media screen and (min-width: 1024px){
+  
+  .menu{
+    position: initial;
+    width: initial;
+    padding: initial;
+    background-color: transparent;
+    opacity: initial;
+    transform: initial;
+  }
+
+  .menu > .list{
+    flex-direction: row;
+  }
+
+  .screen-lg-hidden{
+    display: none;
+  }
+
+  .screen-sm-hidden{
+    display: block;
+  }
+
+  .list-item{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+}
+
+
+
