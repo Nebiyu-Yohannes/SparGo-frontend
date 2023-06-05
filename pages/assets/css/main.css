@@ -372,10 +372,6 @@ body.light-theme{
   min-height: var(--item-min-height-md);
 }
 
-.featured-spare-1{
-  margin-top: -1.5rem;
-}
-
 .spare-image{
   position: absolute;
   width: 100%;
@@ -1028,6 +1024,15 @@ body.activated{
 
   .part-post-data img{
     height: 40rem;
+  }
+
+  .featured-spare-2{
+    margin-right: 1rem;
+  }
+
+  .featured-spare-3{
+    margin-right: 1rem;
+    margin-bottom: 2rem;
   }
   
 }
