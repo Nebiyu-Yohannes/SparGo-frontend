@@ -676,7 +676,7 @@ body.light-theme{
   padding-right: 2rem;
 }
 .newsletter-form{
-  width: fit-content;
+  width: fit-content; /* fit-content is not supported by some browsers like firefox */
   align-self: center;
 }
 
@@ -1070,6 +1070,11 @@ body.activated{
   }
 
 }
+
+
+
+/* CSS FOR THE SignUp PAGE */
+
 
   
 
