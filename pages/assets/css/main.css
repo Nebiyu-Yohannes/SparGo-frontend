@@ -1084,18 +1084,22 @@ body.activated{
   height: 75%;
 }
 
+.signup-header-container{
+
+}
+
 
 .signup-container {
   align-self: center;
   max-width: 400px;
   padding: 20px;
   background-color: inherit;
-  border: 2px solid rgb(2, 87, 2);
+  border: 2px dashed rgb(2, 87, 2);
   border-radius: 5px;
 }
 
 .signup-container:hover{
-  border: 2px dashed rgb(14, 189, 14);
+  border: 2px solid rgb(14, 189, 14);
   background-color: rgba(34, 32, 32, 0.479);
 }
 
