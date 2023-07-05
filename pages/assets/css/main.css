@@ -1075,19 +1075,24 @@ body.activated{
 
 /* CSS FOR THE SignUp PAGE */
 
+
 .signup-section{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  margin-top: 7rem; 
+  gap: 1rem; 
   width: 100%;
   height: 75%;
 }
 
-.signup-header-container{
-
+.signup-header-container {
+  align-self: center;
+  background-color: inherit;
+  padding: 2rem;
 }
 
+.signup-header-container:hover{
+}
 
 .signup-container {
   align-self: center;
